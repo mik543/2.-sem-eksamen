@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+.mainhead{
+	background-color: black;
+	color: white;
+	text-align: center;
+	display: block;
+}
+.main{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	
+}
+.mobiletext{
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
