@@ -16,3 +16,12 @@
 	text-align: center;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
+.container{
+	grid-template-areas: 'active active id id name name name service service service service more more more' ;
+	display: grid;
+}
+.item1 {grid-area: active;}
+.item2 {grid-area: id;}
+.item3 {grid-area: name;}
+.item4 {grid-area: service;}
+.item5 {grid-area: more;}
