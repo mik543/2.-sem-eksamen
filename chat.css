@@ -15,7 +15,61 @@ body{
 html {
 
 font-family: Helvetica;
-background:#00CC00;
+background:#ffffff;
 font-size: 12px;
 
+}
+
+body {
+
+display: grid;
+place-items: center;
+
+}
+
+
+#chat-container {
+
+min-width: 800px;
+max-width: 1000px;
+max-height: 95vh;
+height: 95vh;
+background: #ffffff;
+border-radius: 10px;
+width: 100%;
+display: grid;
+grid:
+'search-container chat-title' 71px
+'conversation-list chat-message-list' 1fr
+'new-message-container chat-form' 78px
+7 275px 1fr;
+}
+
+#seach-container,
+#conversation-list,
+#new-message-container {
+
+background: #E5E5E5;
+
+}
+
+#seach-container {
+
+border-radius: 10px 0 0 0;
+box-shadow: 0 1px 3px -1px rgba (0, 0, 0, 0, 0.75);
+z-index: 1;
+}
+
+#new-message-container {
+
+border-top: 1px solid rgba(0,0,0,0.25);
+border-radius: 0 0 0 10px;
+
+}
+
+
+#chat-title,
+#chat-form {
+
+  background:#ffffff;
 }
