@@ -80,7 +80,7 @@ background-size: 20px 20px;
 }
 
 #search-container input::pladeholder {
-color: #00CD00;
+color: #000000;
 font-weight: bold;
 
 
@@ -127,8 +127,7 @@ align-content: center;
 align-items: center;
 grid-area: chat-title;
 color: #000000;
-font-weight: bold;
-font-size: 15px;
+font-size: 20px;
 border-radius: 0 10px 0 0;
 box-shadow: 0 1px 3px -1px rgba(0,0,0,0.75);
 padding: 0 20px;
@@ -146,8 +145,25 @@ grid-area: chat-message-list;
 }
 
 #chat-form {
+display: grid;
+grid: 51px / 32px 1fr;
 grid-area: chat-form;
+align-content: center;
+align-items: center;
+grid-gap: 15px;
 border-radius: 0 0 10px 0;
 border-top:1px solid rgba(0,0,0,0.25);
+padding-left: 35px;
+padding-right: 22px;
+
+}
+
+
+#chat-form input {
+
+outline: none;
+padding: 15px;
+border: 2px solid #ffffff;
+color: #000000;
 
 }
