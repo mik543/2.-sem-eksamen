@@ -88,17 +88,63 @@ font-weight: bold;
 
 #conversation-list {
 
-grid-area: conversation-list
+grid-area: conversation-list;
+overflow-y: scroll;
 
 }
 
 
 .conversation {
-
+display: grid;
+grid-template-columns: 40px 1fr max-content;
+grid-gap: 5px;
 color: #000000;
 font-size: 1.3rem;
 border-bottom: 1px solid #707070;
 padding: 20px 20px 20px 15px;
+
+}
+
+
+.conversation.active,
+.conversation:hover {
+background: #F8F8F8;
+
+}
+
+.conversation:hover {
+cursor: pointer;
+
+}
+
+.conversation > img {
+grid-row: span 2;
+
+}
+
+.title-text {
+
+font-weight: bold;
+color: #000000;
+padding-left: 10px;
+white-space: nowrap;
+overflow-x: hidden;
+text-overflow: ellipsis;
+
+
+}
+
+.creasted-date {
+color: #000000;
+font-size: 1rem;
+}
+
+.conversation-message {
+grid-column: span 2;
+padding-left: 10px;
+white-space: nowrap;
+overflow-x: hidden;
+text-overflow: ellipsis;
 
 }
 
@@ -177,5 +223,12 @@ border: 2px solid #ffffff;
 color: #000000;
 border-radius: 6px;
 font-size:  1.4rem;
+
+}
+
+
+::-webkit-scrollbar {
+
+display:none;
 
 }
