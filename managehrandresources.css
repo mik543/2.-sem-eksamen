@@ -1,0 +1,57 @@
+html {
+
+font-family: Helvetica;
+background: #000000 ;
+font-size: 12px;
+
+}
+
+body {
+
+display: grid;
+place-items: center;
+
+}
+
+#resources-box {
+
+
+width: 800px;
+height: 95vh;
+background: #ffffff;
+border-radius: 10px;
+display: block;
+
+
+}
+
+.backbut {
+	background-color:#00CC00;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 20px;
+	text-decoration:none;
+  width: 100px;
+  height: 50px;
+  line-height: 45px;
+  text-align: center;
+
+
+
+}
+
+.backbut:active {
+position:relative;
+transform: scale(1.01);
+}
+
+.arrow  {
+float: left;
+display: block;
+margin-top:
+margin-left:
+
+}
