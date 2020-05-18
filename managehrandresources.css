@@ -109,7 +109,7 @@ font-weight: bold;
 }
 
 .container{
-	grid-template-areas: 'HR HR HR E-mail E-mail E-mail Connect Connect Connect' ;
+	grid-template-areas: 'HR HR HR Email Email Email Connect Connect Connect' ;
 	display: grid;
 }
 
@@ -197,6 +197,11 @@ margin-top: 10px;
   margin-top: 10px;
 }
 
+
+
+
+
+
 .connectressourcebut {
 	background-color:#8A8A8A;
 	border-radius:11px;
@@ -210,6 +215,7 @@ margin-top: 10px;
 	text-decoration:none;
   width: 15px;
   height: 20px;
+
 
 }
 
