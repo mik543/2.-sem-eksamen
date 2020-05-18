@@ -6,14 +6,21 @@ font-size: 12px;
 
 }
 
+body {
+
+display: grid;
+place-items: center;
+
+}
+
 #resources-box {
 
 
-    width: 800px;
-    height: 95vh;
-    background: #ffffff;
-    border-radius: 10px;
-    border-radius: 10px;
+width: 800px;
+height: 95vh;
+background: #ffffff;
+border-radius: 10px;
+display: block;
 
 
 }
