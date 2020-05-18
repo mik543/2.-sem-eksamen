@@ -3,9 +3,19 @@
 .mainhead{
 	background-color: black;
 	color: white;
-	text-align: center;
 	display: block;
 }
+.title{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.faces{
+	margin-left: auto; 
+	display: block; 
+	width: 60px;
+}
+
 .main{
 	margin-left: auto;
 	margin-right: auto;
@@ -30,3 +40,60 @@
 .item3 {grid-area: name;}
 .item4 {grid-area: service;}
 .item5 {grid-area: more;}
+
+.dot{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.dropbtn {
+  background-color: darkgray;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+@media screen and (min-width: 600px){
+	
+	.mainhead{
+	background-color: black;
+	color: white;
+	display: block;
+	margin: 10px;
+		
+	}
+	.title{
+	display: block;
+	margin-left: 20px;
+}
+}
