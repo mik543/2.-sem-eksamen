@@ -26,18 +26,21 @@ display: block;
 }
 
 .backbut {
-	background-color:#00CC00;
-	border-radius:11px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family: 'Helvetica', sans-serif;
-	font-size: 20px;
-	text-decoration:none;
-  width: 100px;
-  height: 50px;
-  line-height: 45px;
-  text-align: center;
+background-color:#00CC00;
+border-radius:11px;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family: 'Helvetica', sans-serif;
+font-size: 12px;
+text-decoration:none;
+width: 60px;
+height: 30px;
+line-height: 30px;
+text-align: center;
+grid-row: span 2;
+margin-top: 25px;
+margin-left: 15px;
 
 
 
@@ -51,7 +54,156 @@ transform: scale(1.01);
 .arrow  {
 float: left;
 display: block;
-margin-top:
-margin-left:
+padding-top: 10px;
+padding-left: 10px;
 
+}
+
+.backbut > img  {
+width: 10px;
+height: 10px;
+
+}
+
+.header {
+text-align: center;
+text-decoration:none;
+}
+
+
+
+#search-container {
+display: grid;
+align-items: center;
+padding: 0 20px;
+grid-area: search-container;
+border-radius: 10px 10px 10px 10px;
+box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.6);
+z-index: 1;
+float: right;
+display: block;
+margin-right: 20px;
+margin-top: 20px;
+}
+
+#search-container input{
+color: #707070;
+outline: none;
+border-radius: 2px;
+height: 30px;
+border: 0;
+padding-left: 10px;
+padding-right: 20px;
+font-size: 1.4rem;
+background: url('../images/search/search.svg') no-repeat rgba(255, 255, 255, 0.3)
+background-position: 15px center;
+background-size: 20px 20px;
+
+}
+
+#search-container input::pladeholder {
+color: #000000;
+font-weight: bold;
+
+
+}
+
+.container{
+	grid-template-areas: 'HR HR HR E-mail E-mail E-mail Connect Connect Connect' ;
+	display: grid;
+}
+
+
+
+.item1 {
+margin-left: 65px;
+margin-top: 100px;
+
+}
+
+.item2 {
+
+margin-left: 300px;
+margin-top: 100px;
+white-space: pre-line;
+
+}
+
+.item3 {
+
+margin-left: 250px;
+margin-top: 100px;
+}
+
+.thomas {
+margin-left: 35px;
+white-space: pre-line;
+
+}
+
+.thomasmail {
+
+margin-left: 200px;
+white-space: pre-line;
+}
+
+.connect-but1 {
+margin-left: 250px;
+
+}
+
+.lars {
+margin-left: 35px;
+white-space: pre-line;
+
+}
+
+.larsmail {
+
+margin-left: 225px;
+}
+
+.connect-but2 {
+margin-left: 250px;
+
+}
+
+.helle {
+margin-left: 35px;
+white-space: pre-line;
+
+}
+
+.hellemail {
+
+margin-left: 225px;
+}
+
+.connect-but3 {
+margin-left: 250px;
+
+}
+
+.connectressourcebut {
+	background-color:#8A8A8A;
+	border-radius:11px;
+	border:1px solid #8A8A8A;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Helvetica';
+	font-size: 12px;
+	padding:10px 46px;
+	text-decoration:none;
+  text-align: center;
+  width: 15px;
+  height: 20px;
+  position: relative;
+
+
+}
+
+.connectressourcebut:active {
+	position:relative;
+	transform: scale(1.01);
 }
