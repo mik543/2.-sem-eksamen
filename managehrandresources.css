@@ -1,0 +1,19 @@
+html {
+
+font-family: Helvetica;
+background: #000000 ;
+font-size: 12px;
+
+}
+
+#resources-box {
+
+
+    width: 800px;
+    height: 95vh;
+    background: #ffffff;
+    border-radius: 10px;
+    border-radius: 10px;
+
+
+}
