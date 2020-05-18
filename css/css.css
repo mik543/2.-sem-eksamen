@@ -15,6 +15,11 @@
 .mobiletext{
 	text-align: center;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+}
+.search{
+	float: right;
+	display: block;
 }
 .container{
 	grid-template-areas: 'active active id id name name name service service service service more more more' ;
