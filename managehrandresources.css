@@ -103,3 +103,98 @@ font-weight: bold;
 
 
 }
+
+.container{
+	grid-template-areas: 'HR HR HR E-mail E-mail E-mail Connect Connect Connect' ;
+	display: grid;
+}
+
+
+
+.item1 {
+margin-left: 65px;
+
+}
+
+.item2 {
+
+margin-left: 300px;
+}
+
+.item3 {
+
+margin-left: 250px;
+
+}
+
+.thomas {
+margin-left: 35px;
+white-space: pre-line;
+
+}
+
+.thomasmail {
+
+margin-left: 225px;
+}
+
+.connect-but1 {
+margin-left: 250px;
+
+}
+
+.lars {
+margin-left: 35px;
+white-space: pre-line;
+
+}
+
+.larsmail {
+
+margin-left: 225px;
+}
+
+.connect-but2 {
+margin-left: 250px;
+
+}
+
+.thomas {
+margin-left: 35px;
+white-space: pre-line;
+
+}
+
+.thomasmail {
+
+margin-left: 225px;
+}
+
+.connect-but1 {
+margin-left: 250px;
+
+}
+
+.connectressourcebut {
+	background-color:#8A8A8A;
+	border-radius:11px;
+	border:1px solid #8A8A8A;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Helvetica';
+	font-size: 12px;
+	padding:10px 46px;
+	text-decoration:none;
+  text-align: center;
+  width: 15px;
+  height: 20px;
+  position: relative;
+
+
+}
+
+.connectressourcebut:active {
+	position:relative;
+	transform: scale(1.01);
+}
