@@ -32,15 +32,16 @@ display:inline-block;
 cursor:pointer;
 color:#ffffff;
 font-family: 'Helvetica', sans-serif;
-font-size: 20px;
+font-size: 12px;
 text-decoration:none;
-width: 100px;
-height: 50px;
-line-height: 50px;
+width: 60px;
+height: 30px;
+line-height: 30px;
 text-align: center;
 grid-row: span 2;
 margin-top: 25px;
 margin-left: 15px;
+
 
 
 }
@@ -53,14 +54,14 @@ transform: scale(1.01);
 .arrow  {
 float: left;
 display: block;
-padding-top: 14px;
-padding-left: 13px;
+padding-top: 10px;
+padding-left: 10px;
 
 }
 
 .backbut > img  {
-width: 20px;
-height: 20px;
+width: 10px;
+height: 10px;
 
 }
 
@@ -69,10 +70,7 @@ text-align: center;
 text-decoration:none;
 }
 
-.search-container {
 
-  
-}
 
 #search-container {
 display: grid;
