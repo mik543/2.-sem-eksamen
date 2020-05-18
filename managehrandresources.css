@@ -82,7 +82,7 @@ box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.6);
 z-index: 1;
 float: right;
 display: block;
-margin-right: 20px;
+margin-right: 30px;
 margin-top: 20px;
 }
 
@@ -109,7 +109,7 @@ font-weight: bold;
 }
 
 .container{
-	grid-template-areas: 'HR HR HR E-mail E-mail E-mail Connect Connect Connect' ;
+	grid-template-areas: 'HR HR HR Email Email Email Connect Connect Connect' ;
 	display: grid;
 }
 
@@ -131,79 +131,93 @@ white-space: pre-line;
 
 .item3 {
 
-margin-left: 250px;
+margin-left: 255px;
 margin-top: 100px;
 }
 
 .thomas {
-margin-left: 35px;
+margin-left: 30px;
 white-space: pre-line;
+margin-top: 20px;
 
 }
 
 .thomasmail {
 
-margin-left: 200px;
+margin-left: 230px;
 white-space: pre-line;
+margin-top: 20px;
 }
 
 .connect-but1 {
-margin-left: 250px;
+  margin-left: 210px;
+margin-top: 10px;
+
+
+
 
 }
 
 .lars {
-margin-left: 35px;
-white-space: pre-line;
+  margin-left: 40px;
+  white-space: pre-line;
+  margin-top: 20px;
 
 }
 
 .larsmail {
 
-margin-left: 225px;
-}
+  margin-left: 250px;
+  white-space: pre-line;
+  margin-top: 20px;
+  }
 
 .connect-but2 {
-margin-left: 250px;
+  margin-left: 210px;
+  margin-top: 10px;
 
 }
 
 .helle {
-margin-left: 35px;
-white-space: pre-line;
+  margin-left: 30px;
+  white-space: pre-line;
+  margin-top: 20px;
 
 }
 
 .hellemail {
 
-margin-left: 225px;
+  margin-left: 240px;
+  white-space: pre-line;
+  margin-top: 20px;
 }
 
 .connect-but3 {
-margin-left: 250px;
-
+  margin-left: 210px;
+  margin-top: 10px;
 }
+
+
+
+
+
 
 .connectressourcebut {
 	background-color:#8A8A8A;
-	border-radius:11px;
+  border-radius:11px;
 	border:1px solid #8A8A8A;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family: 'Helvetica';
 	font-size: 12px;
-	padding:10px 46px;
 	text-decoration:none;
   text-align: center;
-  width: 15px;
-  height: 20px;
   position: relative;
-
-
-}
-
-.connectressourcebut:active {
-	position:relative;
-	transform: scale(1.01);
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 15px;
+  width: 90px;
+  height: 50px;
+  margin: 0 auto;
 }
