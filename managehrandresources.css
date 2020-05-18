@@ -131,57 +131,70 @@ white-space: pre-line;
 
 .item3 {
 
-margin-left: 250px;
+margin-left: 255px;
 margin-top: 100px;
 }
 
 .thomas {
-margin-left: 35px;
+margin-left: 30px;
 white-space: pre-line;
+margin-top: 25px;
 
 }
 
 .thomasmail {
 
-margin-left: 200px;
+margin-left: 230px;
 white-space: pre-line;
+margin-top: 25px;
 }
 
 .connect-but1 {
-margin-left: 250px;
+margin-left: 200px;
+margin-top: 10px;
+
+
+
 
 }
 
 .lars {
-margin-left: 35px;
-white-space: pre-line;
+  margin-left: 40px;
+  white-space: pre-line;
+  margin-top: 25px;
 
 }
 
 .larsmail {
 
-margin-left: 225px;
-}
+  margin-left: 250px;
+  white-space: pre-line;
+  margin-top: 25px;
+  }
 
 .connect-but2 {
-margin-left: 250px;
+  margin-left: 200px;
+  margin-top: 10px;
 
 }
 
 .helle {
-margin-left: 35px;
-white-space: pre-line;
+  margin-left: 30px;
+  white-space: pre-line;
+  margin-top: 25px;
 
 }
 
 .hellemail {
 
-margin-left: 225px;
+  margin-left: 240px;
+  white-space: pre-line;
+  margin-top: 25px;
 }
 
 .connect-but3 {
-margin-left: 250px;
-
+  margin-left: 200px;
+  margin-top: 10px;
 }
 
 .connectressourcebut {
