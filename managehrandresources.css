@@ -36,7 +36,7 @@ font-size: 20px;
 text-decoration:none;
 width: 100px;
 height: 50px;
-line-height: 45px;
+line-height: 50px;
 text-align: center;
 grid-row: span 2;
 margin-top: 25px;
@@ -53,13 +53,55 @@ transform: scale(1.01);
 .arrow  {
 float: left;
 display: block;
-padding-top: 12px;
-padding-left: 10px;
+padding-top: 14px;
+padding-left: 13px;
 
 }
 
 .backbut > img  {
 width: 20px;
 height: 20px;
+
+}
+
+.header {
+text-align: center;
+text-decoration:none;
+}
+
+.search-container {
+
+  
+}
+
+#search-container {
+display: grid;
+align-items: center;
+padding: 0 20px;
+grid-area: search-container;
+border-radius: 0 10px 0 0;
+box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.6);
+z-index: 1;
+}
+
+#search-container input{
+color: #707070;
+outline: none;
+border-radius: 2px;
+height: 30px;
+border: 0;
+padding-left: 10px;
+padding-right: 20px;
+font-size: 1.4rem;
+background: url('../images/search/search.svg') no-repeat rgba(255, 255, 255, 0.3)
+background-position: 15px center;
+background-size: 20px 20px;
+
+}
+
+#search-container input::pladeholder {
+color: #000000;
+font-weight: bold;
+
 
 }
