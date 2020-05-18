@@ -213,13 +213,11 @@ margin-top: 10px;
 	font-size: 12px;
 	text-decoration:none;
   text-align: center;
-  width: 20px;
   position: relative;
-  white-space: pre-line;
-  line-height:10px;
   padding-left: 30px;
   padding-right: 30px;
-  margin-bottom: 10px;
-  height: 35px;
-
+  height: 15px;
+  width: 90px;
+  height: 50px;
+  margin: 0 auto;
 }
