@@ -13,12 +13,12 @@
   color: white;
 }
 
-#container{
+#logo{
   height: 200px;
   line-height: 200px;
 }
 
-#container img {
+#logo img {
   vertical-align: middle;
   margin: 50px;
   width: 500px;
