@@ -2,60 +2,57 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'helvetica';
 }
 
 body{
     height: 100%;
-    background-color: #111;
+    background-color: white;
     box-sizing: border-box;
 }
 
 h1 {
-	color: #00cc00;
-	font-size: 3rem;
+	font-size: 20px;;
 	text-align: center;
 	margin: 1px 0px 3px;
-	font-family: 'Hind', sans-serif;
+	font-family: 'helvetica';
 }
 
 .title{
-	color: #00cc00;
-	font-weight: 800;
+	color: #000000;
 }
 
 .inputDiv{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 }
 
 .input{
     padding: 0.5rem 1rem;
-    outline: none;
-    border: none;
-    height: 50px;
+    height: 40px;
     border-radius: 25px;
     width: 350px;
-    margin: 0.25rem;
-    transition: .5s;
-    font-size: 1.15rem;
+    margin: 5px;
+    font-size: 15px;
+    border: 1px solid black;
 }
 
 .add{
 	outline: none;
     border: none;
-    height: 50px;
-    border-radius: 25px;
-    width: 50px;
-    background-color: lime;
+    height: 40px;
+    border-radius: 70px;
+    width: 40px;
+    background-color: #00cc00;
     color: white;
     cursor: pointer;
-    transition: .5s;
-    margin: 0.25rem;
+    margin: 5px;
 }
 
 .add:hover{
-	opacity: 0.7;
+	opacity: 0.5;
 }
 
 .container{
@@ -64,11 +61,11 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	margin-top: 2rem;
+	margin-top: 10px;
 }
 
 .item{
-	padding: 0.5rem;
+	padding: 1px;
 	border-bottom: 4px solid #fff;
 	margin-bottom: 1.5rem;
 }
@@ -77,19 +74,19 @@ h1 {
 	background: none;
 	outline: none;
 	border: none;
-	color: #fff;
-	font-size: 1.4rem;
-	width: 245px;
+	color: #000000;
+	font-size: 20px;
+	width: 200px;
 }
 
 .edit{
 	background: none;
 	outline: none;
 	border: none;
-	color: lime;
-	font-size: 1.4rem;
-	font-family: 'Hind', sans-serif;
-	margin: 0 0.5rem;
+	color: #e00;
+	font-size: 20px;
+	font-family: 'helvetica';
+	margin: 0 5px;
 	cursor: pointer;
 }
 
@@ -97,9 +94,9 @@ h1 {
 	background: none;
 	outline: none;
 	border: none;
-	color: #E00;
-	font-size: 1.4rem;
-	font-family: 'Hind', sans-serif;
+	color: #00cc00;
+	font-size: 20px;
+	font-family: 'helvetica';
 	cursor: pointer;
 }
 
@@ -126,7 +123,7 @@ h1 {
 
 
 .back{
-  margin: 35px;
-  height: 100px;
-  width: auto;
+  margin: 10px;
+  height: auto;
+  width: 70px;
 }
