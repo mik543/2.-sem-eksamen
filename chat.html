@@ -55,11 +55,12 @@
 
       </div>
       <div id="new-message-container">
-          <a href="#">+</a>
+          <a  href="#">+</a>
+
       </div>
       <div id="chat-title">
           <span>Thomas Larsen</span>
-          <img src="img/trash.png" alt="Delete Conversation" />
+          <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="img/trash.png" alt="Delete Conversation" width="32" height="32" />
       </div>
       <div id="chat-message-list">
           <div class="message-row you-message">
@@ -88,7 +89,23 @@
 
       </div>
       <div id="chat-form">
-            <img src="img/attach.png" alt="Add Attachment" />
+            <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="img/attach.png" alt="Add Attachment" width="32" height="32"/>
+
+						<script>
+						function bigImg(x) {
+						  x.style.height = "35px";
+						  x.style.width = "35px";
+						}
+
+						function normalImg(x) {
+						  x.style.height = "32px";
+						  x.style.width = "32px";
+						}
+						</script>
+
+
+
+
             <input type="text" placeholder="Type a message" />
           </div>
 
@@ -96,12 +113,6 @@
 
 
   </div>
-
-<script>
-
-
-
-</script>
 
 
 </body>

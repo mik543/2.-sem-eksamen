@@ -162,13 +162,17 @@ padding: 0 15px;
 
 #new-message-container a {
 display: grid;
-place-content: center center;
 background: #00CD00;
 border-radius: 100%;
 color: #ffffff;
 text-decoration: none;
 font-size: 30px;
+padding-left: 11px;
+
 }
+
+
+
 
 
 
