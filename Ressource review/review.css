@@ -116,3 +116,111 @@ ul{
       margin-right: auto }
 
 }
+
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
+    padding: 0.5rem 1rem;
+    height: 40px;
+    border-radius: 25px;
+    width: auto;
+    margin: 5px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+.add{
+	outline: none;
+    border: none;
+    height: 40px;
+    border-radius: 70px;
+    width: 40px;
+    background-color: #00cc00;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.modal{
+  position: fixed;
+  display: none;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: black;
+}
+
+.modal-content{
+  background-color: white;
+  margin: 50% auto;
+  width: 100%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2),0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  animation-name: modalopen;
+  animation-duration: 1s;
+  border-radius: 14px;
+  border: 2px solid black;
+}
+
+.modal-header{
+  background: black;
+  padding: 10px;
+  border-radius: 11px 11px 0px 0px;
+  border: 2px solid black;
+  margin: 0px;
+text-align: right;
+  color: white;
+}
+
+.closeBtn{
+  color: white;
+float: right;
+  text-align: right;
+  cursor: pointer;
+  font-size: 80px;
+  line-height: 20px;
+}
+
+.blank{
+  font-size: 0px;
+}
+
+.modal-body{
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.CloseBtn:hover,.CloseBtn:focus{
+  color: gray;
+  text-decoration: none;
+}
+
+.button{
+  background: #00cc00;
+  padding: 1px 2px;
+  color: white;
+  border: 0;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover{
+  background: gray;
+  text-decoration: none;
+}
+
+@keyframes modalopen{
+  from{opacity: 0}
+  to{opacity: 1}
+}
