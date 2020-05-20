@@ -1,21 +1,28 @@
 @charset "utf-8";
 /* CSS Document */
+body{
+	margin: 0px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
 .mainhead{
 	background-color: black;
 	color: white;
-	display: block;
+	width: 100%;
+	height: 150px;
 }
 .title{
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	width: 300px;
 }
 .faces{
-	margin-left: auto; 
+	margin-left: auto;
+	margin-right: 10px;
 	display: block; 
 	width: 60px;
+	float: left;
 }
-
 .main{
 	margin-left: auto;
 	margin-right: auto;
@@ -35,11 +42,11 @@
 	grid-template-areas: 'active active id id name name name service service service service more more more' ;
 	display: grid;
 }
-.item1 {grid-area: active;}
-.item2 {grid-area: id;}
-.item3 {grid-area: name;}
-.item4 {grid-area: service;}
-.item5 {grid-area: more;}
+.item1 {grid-area: active; text-align: center}
+.item2 {grid-area: id; text-align: center}
+.item3 {grid-area: name; text-align: center}
+.item4 {grid-area: service; text-align: center}
+.item5 {grid-area: more; text-align: center}
 
 .dot{
 	display: block;
@@ -82,18 +89,3 @@
 .dropdown-content a:hover {background-color: white;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: lightgray;}
-
-@media screen and (min-width: 600px){
-	
-	.mainhead{
-	background-color: black;
-	color: white;
-	display: block;
-	margin: 10px;
-		
-	}
-	.title{
-	display: block;
-	margin-left: 20px;
-}
-}

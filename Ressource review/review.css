@@ -96,7 +96,7 @@ ul{
 }
 
 .add{
-  max-width:100%
+  max-width:100%;
   height: auto;
   width: 70px;
   float: right;
@@ -108,14 +108,14 @@ ul{
 }
 
 .upload{
-  max-width:100%
+  max-width:100%;
   height: auto;
   width: 100%;
   display: block;
       margin-left: auto;
       margin-right: auto }
 
-}
+
 
 .inputDiv{
 	display: flex;
