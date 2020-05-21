@@ -55,6 +55,34 @@ body{
 .item4 {grid-area: service; text-align: center}
 .item5 {grid-area: more; text-align: center}
 
+.ns1{
+	display: block;
+	background-color: orangered;
+	border-color: black;
+	border-style: solid;
+	border-radius: 25px;
+	font-size: 20px;
+}
+
+.ns2{
+	display: block;
+	background-color: greenyellow;
+	border-color: black;
+	border-style: solid;
+	border-radius: 25px;
+	font-size: 20px;
+}
+
+.ns3 {
+	display: block;
+	background-color: yellow;
+	border-color: black;
+	border-style: solid;
+	border-radius: 25px;
+	font-size: 20px;
+	
+}
+
 .dot{
 	display: block;
 	margin-left: auto;
@@ -63,7 +91,6 @@ body{
 }
 
 .dropbtn {
-  background-color: darkgray;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -95,4 +122,3 @@ body{
 
 .dropdown-content a:hover {background-color: white;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: lightgray;}
