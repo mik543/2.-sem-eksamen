@@ -10,6 +10,7 @@
 	
 
 <body>
+	
 	<header class="mainhead">
 		<div class="dropdown" style="float: right"><div>
 			
@@ -116,6 +117,14 @@
 								</div>
 </div></div>
 		</div>
+		</div>
+		<div class="time">
+			<p id="maintime" style="text-align: center"></p>
+			
+			<script>
+				var d = new Date();
+				document.getElementById("maintime").innerHTML = d;
+			</script>
 		</div>
 	</div>
 </body>

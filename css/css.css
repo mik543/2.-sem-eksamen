@@ -123,3 +123,9 @@ body{
 
 .dropdown-content a:hover {background-color: white;}
 .dropdown:hover .dropdown-content {display: block;}
+
+.time{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
